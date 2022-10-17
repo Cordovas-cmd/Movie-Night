@@ -39,3 +39,33 @@ header {
 .search:focus {
 background-color: var(--primary-color);
 }
+
+main {
+  display: flex;
+  flex-wrap: wrap; 
+}
+
+
+
+.movie {
+  width: 300px;
+  margin: 1rem;
+  background-color: var(--secondary-color);
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+  position: relative;
+  overflow: hidden;
+  border-radius: 3px;
+}
+
+.movie img {
+  width: 100%;
+}
+
+.movie-info {
+  color: #eee;.l,.
+  display: flex;
+}
+
+.movie-info h3 {
+  margin-top: 0;
+}
