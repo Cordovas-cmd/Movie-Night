@@ -62,10 +62,14 @@ main {
 }
 
 .movie-info {
-  color: #eee;.l,.
+  color: #eee;
   display: flex;
 }
 
 .movie-info h3 {
   margin-top: 0;
 }
+
+
+/* not finished yet */
+/* Addd some sort of animation possibly for how the results will appear */
