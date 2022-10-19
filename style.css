@@ -24,7 +24,7 @@ header {
 
 .search {
   background-color: transparent;
-  border 2px solid var(--primary-color);
+  border: 2px solid var(--primary-color);
   border-radius: 50px;
   font-family: inherit;
   font-size: 1rem;
@@ -94,7 +94,20 @@ main {
 }
 
 
+.overview {
+  background-color: #fff;
+  padding: 2rem;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  max-height: 100%;
+  transform: translateY(101%);
+  transition: transform 0.3s ease-in;
+}
 
-
+.movie:hover .overview {
+  transform: translateY(0);
+}
 /* not finished yet */
 /* Addd some sort of animation possibly for how the results will appear */
